@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">HerbalMedicineCalculator</string>
+    <string name="title">Dilution/Fortification Calculator</string>
+    <string name="desired_volume">Final Volume Any Units (ml, cups, Acre-feet, etc.)</string>
+    <string name="desired_alcohol_percentage">Final Alcohol Percentage (in \u0025)</string>
+    <string name="alcohol_percentage_substance_1">Alcohol Percentage 1 (in \u0025, use 0 for water)</string>
+    <string name="alcohol_percentage_substance_2">Alcohol Percentage 2 (in \u0025, use 0 for water)</string>
+    <string name="volume_substance_1">Substance 1 Volume (same units as final volume)</string>
+    <string name="volume_substance_2">Substance 2 Volume (same units as final volume)</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="clear_button">Clear</string>
+
+    <!--<string name="desired_volume_hint">200</string>-->
+    <!--<string name="desired_alcohol_percentage_hint">80</string>-->
+    <!--<string name="alcohol_percentage_substance_1_hint">95.5</string>-->
+    <!--<string name="alcohol_percentage_substance_2_hint">0</string>-->
+    <!--<string name="volume_substance_1_hint">100</string>-->
+    <!--<string name="volume_substance_2_hint">100</string>-->
+    <string name="empty_field_error"> empty fields found there can only be two.</string>
+    <string name="required_field_error">This is a required field.</string>
+    <string name="desired_equals_part_error">A substance cannot have the same percent alcohol as desired.</string>
+    <string name="desired_percent_alcohol_low_error">Impossible - the desired alcohol percentage is lower than both substances. Use water instead.</string>
+    <string name="desired_percent_alcohol_high_error">Impossible - the desired alcohol percentage is higher than both substances.</string>
+    <string name="volume_total_error">Impossible the volume parts don\'t equal the total desired volume.</string>
+    <string name="percent_alcohol_bounds_error">Alcohol percentage must be between 0 and 100.</string>
+    <string name="volume_bounds_error">Volume must be greater than 0.</string>
+    <string name="equal_parts_error">The two alcohol percentages are the same. There is no way to change their alcohol percentage.</string>
+    <string name="desired_alcohol_percentage_header">Alcohol Percentage</string>
+    <string name="desired_alcohol_percentage_hint">In percent between 0 and 100.</string>
+    <string name="desired_volume_header">Volume</string>
+    <string name="desired_volume_hint">Any units (ml, cups, gal, Acre-feet)</string>
+    <string name="alcohol_percentage_substance_1_header">Alcohol Percentage</string>
+    <string name="alcohol_percentage_substance_1_hint">In percent between 0 and 100. (use 0 for water)</string>
+    <string name="volume_substance_1_header">Volume</string>
+    <string name="volume_substance_1_hint">Use the same units as other volume fields.</string>
+    <string name="alcohol_percentage_substance_2_header">Alcohol Percentage</string>
+    <string name="alcohol_percentage_substance_2_hint">In percent between 0 and 100. (use 0 for water)</string>
+    <string name="volume_substance_2_header">Volume</string>
+    <string name="volume_substance_2_hint">Use the same units as other volume fields.</string>
+    <string name="desired_title">Resulting Fluid</string>
+    <string name="substance_1_title">Starting Fluid 1</string>
+    <string name="substance_2_title">Starting Fluid 2</string>
+</resources>
